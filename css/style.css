@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 1.5% 0;
+    border-bottom: 1px solid #e7e7e7;
+}
+.container{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    width: 10%;
+}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    float: right;
+    width: 50%;
+    margin-top: .5%;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    margin: 0 15px;
+    display: inline-block;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #0F2656;
+}
+.menu ul li a:hover{
+    color: #008AFF;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+.banner{
+    padding: 40px 0;
+}
+.container2{
+    width: 60%;
+    margin: 0 auto;
+}
+.b-text{
+    text-align: center;
+}
+.b-text h1{
+    font-size: 50px;
+    margin: 0 90px 25px;
+    color: #0F2656;
+    line-height: 60px;
+}
+.b-text h1 span{
+    color: #008AFF;
+}
+.b-text p{
+    font-size: 17px;
+    color: #0E2555;
+    margin: 0 0 25px;
+    line-height: 22px;
+}
+.b-img{
+    width: 75%;
+    margin: 0 auto;
+}
+.b-img img{
+    width: 100%;
+}
+.success{
+    padding: 3% 0;
+}
+.s-content{
+    overflow: hidden;
+    padding: 0 4%;
+}
+.s-left{
+    width: 45%;
+    float: left;
+    padding: 3% 2%;
+    text-align: right;
+}
+.s-left h2{
+    font-size: 42px;
+    color: #F15767;
+    margin: 0;
+}
+.s-left p{
+    font-size: 18px;
+    color: #0F2656;
+}
+.s-right{
+    width: 45%;
+    float: right;
+    padding: 2% 2%;
+}
+.s-right h1{
+    font-size: 45px;
+    color: #0A2152;
+    margin: 0;
+}
+.service{
+    padding: 5% 0;
+}
+.s-single{
+    width: 27.33%;
+    padding: 4% 2%;
+    float: left;
+    margin-right: 3%;
+    letter-spacing: .8px;
+}
+.s-single:last-child{
+    margin-right: 0;
+}
+.s-img img{
+    width: 100%;
+}
+.s-text h2{
+    color: rgb(41, 41, 41);
+}
+.pink{
+    background-color: #FDEBED;
+}
+.past{
+    background-color: #EBF9F4;
+}
+.yellow{
+    background-color: #FFF7E8;
+}
+footer{
+    background-color: #008AFF;
+    padding: 2.5% 0;
+}
+.f-text{
+    text-align: center;
+}
+.f-text p{
+    color: rgb(226, 226, 226);
+    margin: 0;
+}
+.f-text a{
+    color: white;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
